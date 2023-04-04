@@ -1,0 +1,84 @@
+body {
+    background-color: #fff;
+  }
+  
+  .calculator {
+    margin: 50px auto;
+    width: 300px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+  }
+  
+  .result {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #fff;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #4CAF50;
+    padding: 16px 24px;
+    box-shadow: 0 4px #3e8e41;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #3e8e41;
+    transform: translateY(2px);
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 0 #666;
+    transform: translateY(4px);
+  }
+  
+  .dark {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .dark .calculator {
+    background-color: #333;
+    box-shadow: 0 0 10px #666;
+  }
+  
+  .dark .result {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark button {
+    background-color: #555;
+    box-shadow: 0 4px #444;
+  }
+  
+  .dark button:hover {
+    background-color: #444;
+    box-shadow: 0 2px #444;
+  }
+  
+  .dark button:active {
+    background-color: #444;
+    box-shadow: 0 0 #666;
+    transform: translateY(4px);
+  }
+  
